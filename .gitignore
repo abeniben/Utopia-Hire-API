@@ -1,0 +1,14 @@
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Logs and cache
+*.log
+npm-debug.log*
+
+
+# IDE/Editor files
+.vscode/
