@@ -13,8 +13,7 @@ const healthRouter = require('./routes/healthRouter');
 const {sendDailyDigestEmail} = require('./services/emailService')
 require('./utils/cron')
 
-
-dotenv.config();
+require('dotenv').config();
 
 const app = express();
 
