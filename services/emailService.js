@@ -1,4 +1,4 @@
-const sendEmail = require("../config/resend");
+const {sendEmail} = require("../config/resend");
 
 
 
