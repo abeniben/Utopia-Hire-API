@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+console.log("All ENV variables:", process.env);
 console.log("RESEND_API_KEY:", process.env.RESEND_API_KEY);  // Debug log
 const Resend  = require("resend");
 
