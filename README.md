@@ -100,12 +100,10 @@ PORT="5000"
 ## **Authentication**
 - All endpoints (except `/api/v1/auth/register` and `/api/v1/auth/login`) require a valid JWT token in the `Authorization` header.
 - Example:
-  ```bash
-  curl -H "Authorization: Bearer <token>" http://localhost:5000/api/v1/jobs
-  ```
+    ```bash
+       curl -H "Authorization: Bearer <token>" http://localhost:5000/api/v1/jobs
+  
 
-
-```
 
 ---
 
@@ -114,5 +112,5 @@ PORT="5000"
 2. Create a new branch for your feature or bugfix.
 3. Submit a pull request with a clear description of changes.
 
----
+
 
